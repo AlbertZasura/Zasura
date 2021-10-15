@@ -1,2 +1,2 @@
-# Zasura
-Blog Website
+# Zasura's World Blog
+This Repository is ***Blog Template***
