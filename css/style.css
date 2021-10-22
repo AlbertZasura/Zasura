@@ -1,37 +1,22 @@
 body {
     font-family: monospace;
-    background-image: url("../asset/image/indexBg.png");
+    /* background-image: url("../asset/image/indexBg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
-.content h1 {
-    border-right: solid black;
-    padding-right: 25px;
-    margin: 0px;
-    font-size: 48px;
-    text-align: center;
-}
-
-.content p{
-    padding-left: 25px;
-    margin: 0px;
-}
-
-.content p a{
+.content a{
     color: salmon;
-    font-size: 24px;
-}
+} 
 
 .content {
-    position: absolute;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
-    width: 100%;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
